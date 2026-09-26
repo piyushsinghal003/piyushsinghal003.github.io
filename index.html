@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piyush Singhal | Senior DevOps Cloud Platform Engineer &amp; Golang Developer</title>
+    <meta
+      name="description"
+      content="Senior DevOps cloud platform engineer in Pune with Golang experience. 9+ years in CI/CD, Kubernetes, multi-cloud platforms, operators, and M&A migrations."
+    />
+    <meta name="author" content="Piyush Singhal" />
+    <link rel="canonical" href="https://piyushsinghal003.github.io/" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Source+Sans+3:wght@400;500;600;650&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <svg class="icon-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.25" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M5 19.2c.7-3.2 3.4-5.2 7-5.2s6.3 2 7 5.2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+      <symbol id="i-layers" viewBox="0 0 24 24"><path d="M12 4 4 8l8 4 8-4-8-4Zm-8 8 8 4 8-4M4 16l8 4 8-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="3.5" y="7" width="17" height="12.5" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M9 7V5.8A1.8 1.8 0 0 1 10.8 4h2.4A1.8 1.8 0 0 1 15 5.8V7M3.5 12h17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+      <symbol id="i-code" viewBox="0 0 24 24"><path d="m8 8-4 4 4 4M16 8l4 4-4 4M13 6l-2 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="9" r="5.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m8.6 13.4-1.4 7 4.8-2.6 4.8 2.6-1.4-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3.5" y="5.5" width="17" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m4.5 7 7.5 6 7.5-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-git" viewBox="0 0 24 24"><circle cx="6" cy="18" r="2.2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="6" cy="6" r="2.2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="18" cy="12" r="2.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M6 8.2v7.6M7.8 6.8c4 0 8 1.6 8 5.2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+      <symbol id="i-cloud" viewBox="0 0 24 24"><path d="M7.5 18h9.2A4.3 4.3 0 0 0 18 9.7 6 6 0 0 0 7.1 11 3.7 3.7 0 0 0 7.5 18Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+      <symbol id="i-box" viewBox="0 0 24 24"><path d="M12 3 4.5 7v10L12 21l7.5-4V7L12 3Zm0 8.2 7.5-4.2M12 11.2 4.5 7M12 11.2V21" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+      <symbol id="i-pulse" viewBox="0 0 24 24"><path d="M3 12h4l2.2-6 3.6 12 2.4-6H21" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-cpu" viewBox="0 0 24 24"><rect x="7" y="7" width="10" height="10" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M9 3v4M12 3v4M15 3v4M9 17v4M12 17v4M15 17v4M3 9h4M3 12h4M3 15h4M17 9h4M17 12h4M17 15h4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+      <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3.5 13.6 9H19l-4.4 3.3L16.3 18 12 14.8 7.7 18l1.7-5.7L5 9h5.4L12 3.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+      <symbol id="i-cap" viewBox="0 0 24 24"><path d="m3 10 9-5 9 5-9 5-9-5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M7 12.4v4.2c2 1.4 8 1.4 10 0v-4.2M21 10.2V16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+      <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="2.6" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M4.5 18.5c.6-2.8 2.8-4.4 4.5-4.4s3.9 1.6 4.5 4.4M16.2 9.2a2.3 2.3 0 1 0 0-2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M19.5 18.5c-.4-2.3-1.8-3.7-3.3-4.2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+      <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M4 12h16M12 4c2.4 2.6 3.6 5.3 3.6 8S14.4 17.4 12 20c-2.4-2.6-3.6-5.3-3.6-8S9.6 6.6 12 4Z" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+      <symbol id="i-phone" viewBox="0 0 24 24"><path d="M7 3.8h10A1.8 1.8 0 0 1 18.8 5.6v12.8a1.8 1.8 0 0 1-1.8 1.8H7A1.8 1.8 0 0 1 5.2 18.4V5.6A1.8 1.8 0 0 1 7 3.8ZM10 18.2h4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    </svg>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="nav">
+      <div class="nav-inner">
+        <a class="brand" href="#top">
+          <span class="brand-mark">PS</span>
+          Piyush Singhal
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          Menu
+        </button>
+        <ul class="nav-links" id="site-nav">
+          <li><a href="#about"><svg class="nav-icon"><use href="#i-user"/></svg>About</a></li>
+          <li><a href="#skills"><svg class="nav-icon"><use href="#i-layers"/></svg>Skills</a></li>
+          <li><a href="#experience"><svg class="nav-icon"><use href="#i-briefcase"/></svg>Experience</a></li>
+          <li><a href="#projects"><svg class="nav-icon"><use href="#i-code"/></svg>Projects</a></li>
+          <li><a href="#certifications"><svg class="nav-icon"><use href="#i-award"/></svg>Certifications</a></li>
+          <li><a href="#contact"><svg class="nav-icon"><use href="#i-mail"/></svg>Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div>
+          <p class="kicker">Pune, India · DevOps cloud platform &amp; Golang</p>
+          <h1>Senior DevOps Cloud Platform Engineer &amp; Golang Developer</h1>
+          <p class="lede">
+            9+ years running CI/CD, Kubernetes, and multi-cloud platforms. I bring Golang
+            experience to the job: CLIs, plugins, and Kubernetes operators that automate
+            platform work, plus M&amp;A migrations that take legacy estates into production-stable
+            cloud infrastructure.
+          </p>
+          <div class="meta-row">
+            <span class="chip">DevOps</span>
+            <span class="chip">Kubernetes</span>
+            <span class="chip">CI/CD · GitOps</span>
+            <span class="chip">Argo CD</span>
+            <span class="chip">Emissary Ingress</span>
+            <span class="chip">Golang</span>
+            <span class="chip">AWS · Azure · GCP</span>
+          </div>
+          <ul class="tech-icons" aria-label="Core technologies">
+            <li>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original.svg" alt="" width="36" height="36" />
+              Kubernetes
+            </li>
+            <li>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="" width="36" height="36" />
+              Docker
+            </li>
+            <li>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="" width="36" height="36" />
+              GitHub
+            </li>
+            <li>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg" alt="" width="36" height="36" />
+              Jenkins
+            </li>
+            <li>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg" alt="" width="36" height="36" />
+              Golang
+            </li>
+            <li>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="" width="44" height="36" />
+              AWS
+            </li>
+            <li>
+              <a href="https://argo-cd.readthedocs.io/en/stable/" target="_blank" rel="noreferrer">
+                <img src="https://cdn.simpleicons.org/argo/EF7B4D" alt="" width="36" height="36" />
+                Argo CD
+              </a>
+            </li>
+            <li>
+              <a href="https://www.getambassador.io/docs/emissary/latest/" target="_blank" rel="noreferrer">
+                <img src="img/emissary.svg" alt="" width="36" height="36" />
+                Emissary
+              </a>
+            </li>
+            <li>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" alt="" width="36" height="36" />
+              Azure
+            </li>
+            <li>
+              <img src="img/datadog.svg" alt="" width="36" height="36" />
+              Datadog
+            </li>
+            <li>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" alt="" width="36" height="36" />
+              Linux
+            </li>
+            <li>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="" width="36" height="36" />
+              MySQL
+            </li>
+          </ul>
+        </div>
+        <aside class="hero-side" aria-label="Career highlights">
+          <div class="hero-card">
+            <div class="stat-grid">
+              <div class="stat">
+                <strong>9+</strong>
+                <span>years in DevOps and platforms</span>
+              </div>
+              <div class="stat">
+                <strong>99.9%</strong>
+                <span>availability via SLIs and SLOs</span>
+              </div>
+              <div class="stat">
+                <strong>Go</strong>
+                <span>CLIs, plugins, and operators</span>
+              </div>
+              <div class="stat">
+                <strong>M&amp;A</strong>
+                <span>legacy to modern cloud cutovers</span>
+              </div>
+            </div>
+          </div>
+          <div class="actions">
+            <a class="btn" href="https://flowcv.com/resume/0tf5lasnrr84" target="_blank" rel="noreferrer">View resume</a>
+            <a class="btn secondary" href="mailto:piyushsinghal003@gmail.com">Email me</a>
+            <a class="btn secondary" href="https://www.linkedin.com/in/piyushsinghal003" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a class="btn secondary" href="https://github.com/piyushsinghal003" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="btn whatsapp" href="https://wa.me/918770178088" target="_blank" rel="noreferrer">
+              <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.04 2C6.58 2 2.15 6.43 2.15 11.89c0 1.76.46 3.48 1.34 5L2 22l5.25-1.38a9.86 9.86 0 0 0 4.79 1.22h.01c5.46 0 9.89-4.43 9.89-9.89C21.94 6.43 17.5 2 12.04 2zm5.76 13.98c-.24.68-1.4 1.3-1.94 1.38-.5.07-1.13.1-1.83-.12-.42-.13-.96-.31-1.66-.61-2.92-1.26-4.82-4.2-4.97-4.4-.15-.19-1.22-1.62-1.22-3.09 0-1.47.77-2.2 1.04-2.5.27-.3.6-.37.8-.37h.58c.18 0 .43-.07.67.51.24.6.82 2.07.89 2.22.07.15.12.33.02.53-.1.19-.14.31-.28.48-.14.16-.3.36-.42.49-.14.14-.28.29-.12.56.16.27.72 1.19 1.55 1.93 1.07.95 1.97 1.25 2.24 1.39.27.14.43.12.59-.07.16-.19.68-.8.86-1.07.18-.27.36-.23.6-.14.24.1 1.54.73 1.8.86.27.13.44.2.51.31.07.11.07.64-.17 1.32z"/></svg>
+              WhatsApp
+            </a>
+          </div>
+        </aside>
+      </section>
+
+      <section id="about">
+        <div class="section-head">
+          <h2><span class="icon-badge" aria-hidden="true"><svg><use href="#i-user"/></svg></span>About</h2>
+          <p>DevOps platform work, with Golang used to automate it.</p>
+        </div>
+        <div class="card">
+          <p>
+            I am a DevOps cloud platform engineer. I own CI/CD, GitOps, Kubernetes, observability,
+            and production reliability across AWS, Azure, and GCP. Golang is how I extend that
+            platform: CLI tools, Kubernetes operators, and plugins that reduce manual toil in
+            pipelines and cluster operations. At AppDirect I lead M&amp;A technical migrations
+            from audit through production stabilization, hold 99.9% availability targets with
+            SLIs and SLOs, and use AI-assisted alert triage so on-call spends time on real
+            failures, not noise.
+          </p>
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="section-head">
+          <h2><span class="icon-badge" aria-hidden="true"><svg><use href="#i-layers"/></svg></span>Skills</h2>
+          <p>The stack I use to operate platforms — including Golang for automation.</p>
+        </div>
+        <div class="skill-grid">
+          <article class="skill-card">
+            <h3><span class="icon-badge sm" aria-hidden="true"><svg><use href="#i-git"/></svg></span>DevOps &amp; CI/CD</h3>
+            <div class="tags">
+              <span>GitHub Actions</span>
+              <span>Jenkins</span>
+              <a class="tag-link" href="https://argo-cd.readthedocs.io/en/stable/" target="_blank" rel="noreferrer">GitOps / Argo CD</a>
+              <span>Argo Workflows</span>
+              <span>Argo Events</span>
+              <span>JFrog Artifactory</span>
+              <span>Azure DevOps</span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <h3><span class="icon-badge sm" aria-hidden="true"><svg><use href="#i-cloud"/></svg></span>Cloud &amp; infrastructure</h3>
+            <div class="tags">
+              <span>AWS EKS, EC2, IAM, VPC, S3</span>
+              <span>Route 53, ALB/NLB, ECR</span>
+              <span>Azure</span>
+              <span>GCP</span>
+              <span>Terraform (IaC)</span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <h3><span class="icon-badge sm" aria-hidden="true"><svg><use href="#i-box"/></svg></span>Containers</h3>
+            <div class="tags">
+              <span>Docker</span>
+              <span>Kubernetes</span>
+              <a class="tag-link" href="https://www.getambassador.io/docs/emissary/latest/" target="_blank" rel="noreferrer">Emissary Ingress</a>
+              <span>Operators</span>
+              <span>Helm</span>
+              <span>Kustomize</span>
+              <span>Compose</span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <h3><span class="icon-badge sm" aria-hidden="true"><svg><use href="#i-pulse"/></svg></span>Observability</h3>
+            <div class="tags">
+              <span>Datadog</span>
+              <span>Prometheus</span>
+              <span>Grafana</span>
+              <span>Splunk</span>
+              <span>AppDynamics</span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <h3><span class="icon-badge sm" aria-hidden="true"><svg><use href="#i-cpu"/></svg></span>Languages &amp; data</h3>
+            <div class="tags">
+              <span>Golang</span>
+              <span>Python</span>
+              <span>Bash</span>
+              <span>Linux</span>
+              <span>MySQL</span>
+              <span>Postgres</span>
+              <span>MongoDB</span>
+              <span>Redis</span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <h3><span class="icon-badge sm" aria-hidden="true"><svg><use href="#i-spark"/></svg></span>AI, APIs &amp; tooling</h3>
+            <div class="tags">
+              <span>Claude</span>
+              <span>Cursor CLI</span>
+              <span>AI agents</span>
+              <span>LLM integration</span>
+              <span>Kafka / Confluent</span>
+              <span>REST / GraphQL</span>
+              <span>GitHub, GitLab, Bitbucket</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience">
+        <div class="section-head">
+          <h2><span class="icon-badge" aria-hidden="true"><svg><use href="#i-briefcase"/></svg></span>Experience</h2>
+          <p>DevOps ownership from pipeline to production, with Golang where automation needs code.</p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <header>
+              <div>
+                <h3><span class="icon-badge sm" aria-hidden="true"><svg><use href="#i-briefcase"/></svg></span>AppDirect India</h3>
+                <p class="role">Senior DevOps Cloud Platform Engineer &amp; Golang Developer</p>
+              </div>
+              <p class="when">Dec 2020 – Present · Pune</p>
+            </header>
+            <ul>
+              <li>Led M&amp;A technical migrations from audit and discovery through production stabilization.</li>
+              <li>Used Golang to build CLI tools, Kubernetes operators, and plugins that run CI/CD across multi-cloud architectures.</li>
+              <li>Cut 8+ hours of weekly operational toil with platform automation.</li>
+              <li>Stood up a Datadog observability stack for proactive alerting and lower failure rates.</li>
+              <li>Defined SLIs and SLOs to hold 99.9% availability targets.</li>
+              <li>Built Cursor AI alert-triage workflows that use NLP to reduce monitoring noise.</li>
+              <li>Mentored engineers and unblocked complex cloud infrastructure issues.</li>
+            </ul>
+          </article>
+          <article class="timeline-item">
+            <header>
+              <div>
+                <h3><span class="icon-badge sm" aria-hidden="true"><svg><use href="#i-briefcase"/></svg></span>Amdocs India</h3>
+                <p class="role">DevOps Engineer</p>
+              </div>
+              <p class="when">Jun 2017 – Nov 2020 · Pune</p>
+            </header>
+            <ul>
+              <li>Configured CI/CD pipelines that raised delivery frequency and deployment reliability.</li>
+              <li>Wrote Python and Bash automation to streamline operations.</li>
+              <li>Coordinated release cycles across multiple customer environments.</li>
+              <li>Established Prometheus and Splunk monitoring for incident detection and alerting.</li>
+              <li>Provided Tier-2/3 support, debugging production issues to keep downtime low.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class="section-head">
+          <h2><span class="icon-badge" aria-hidden="true"><svg><use href="#i-code"/></svg></span>Projects</h2>
+          <p>Platform migrations, CI on Kubernetes, and Golang operators that automate DevOps work.</p>
+        </div>
+        <div class="projects">
+          <article class="card">
+            <p class="when">Dec 2025 – Mar 2026 · DevOps</p>
+            <h3><span class="icon-badge sm" aria-hidden="true"><svg><use href="#i-cloud"/></svg></span>Lead M&amp;A infrastructure migration</h3>
+            <p>
+              End-to-end migration for an acquired business: discovery, requirements, and production
+              cutover. Used the strangler pattern to modernize legacy stacks onto the core cloud
+              platform without a big-bang rewrite.
+            </p>
+          </article>
+          <article class="card">
+            <p class="when">May 2026 – Present · Golang · Kubernetes</p>
+            <h3><span class="icon-badge sm" aria-hidden="true"><svg><use href="#i-git"/></svg></span>GitHub secrets operator</h3>
+            <p>
+              Kubernetes controller written in Golang that syncs cluster Secret resources to GitHub
+              Actions secrets, removing manual secret maintenance from CI.
+            </p>
+          </article>
+          <article class="card">
+            <p class="when">Jan 2025 – Jun 2025 · DevOps · Kubernetes</p>
+            <h3><span class="icon-badge sm" aria-hidden="true"><svg><use href="#i-box"/></svg></span>GitHub self-hosted runners on Kubernetes</h3>
+            <p>
+              On-demand Kubernetes runners for GitHub Actions with custom execution environments
+              and stronger security isolation.
+            </p>
+          </article>
+          <article class="card">
+            <p class="when">Mar 2022 – Jul 2022 · Golang · CI/CD</p>
+            <h3><span class="icon-badge sm" aria-hidden="true"><svg><use href="#i-code"/></svg></span>Manifest, template, and scaffold generator</h3>
+            <p>
+              Go CLI that generates application scaffolds plus build templates and Kubernetes
+              manifests for CI/CD, cutting YAML toil in platform onboarding.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="certifications">
+        <div class="section-head">
+          <h2><span class="icon-badge" aria-hidden="true"><svg><use href="#i-award"/></svg></span>Certifications</h2>
+          <p>Hands-on platform credentials from KodeKloud.</p>
+        </div>
+        <div class="two-col">
+          <article class="card cert-card">
+            <img
+              class="cert-logo"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg"
+              alt=""
+              width="48"
+              height="48"
+            />
+            <div>
+              <p class="when">KodeKloud</p>
+              <h3>Docker certificate</h3>
+              <p>Container fundamentals, images, Compose, and production-ready Docker workflows.</p>
+            </div>
+          </article>
+          <article class="card cert-card">
+            <img
+              class="cert-logo"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original.svg"
+              alt=""
+              width="48"
+              height="48"
+            />
+            <div>
+              <p class="when">KodeKloud</p>
+              <h3>Kubernetes certification</h3>
+              <p>Cluster operations, workloads, networking, and day-2 Kubernetes platform practice.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="more">
+        <div class="section-head">
+          <h2><span class="icon-badge" aria-hidden="true"><svg><use href="#i-plus"/></svg></span>More</h2>
+          <p>Education and community work.</p>
+        </div>
+        <div class="two-col">
+          <article class="card">
+            <h3><span class="icon-badge sm" aria-hidden="true"><svg><use href="#i-cap"/></svg></span>Education</h3>
+            <p class="role">Bachelor of Engineering · Computer Science &amp; Engineering</p>
+            <p>LNCT Group of Colleges, Bhopal · Jul 2013 – Apr 2017 · 7.6 GPA</p>
+          </article>
+          <article class="card">
+            <h3><span class="icon-badge sm" aria-hidden="true"><svg><use href="#i-users"/></svg></span>Volunteer · AppDirect AI workshop</h3>
+            <p class="when">2025 · Pune</p>
+            <p>Presented and built a working web application with Cursor AI for AppDirect India.</p>
+          </article>
+          <article class="card">
+            <h3><span class="icon-badge sm" aria-hidden="true"><svg><use href="#i-globe"/></svg></span>Onsite technical liaison</h3>
+            <p class="when">Dec 2019 – Feb 2020 · Mexico</p>
+            <p>Hands-on support in North America to improve global customer satisfaction.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="section-head">
+          <h2><span class="icon-badge" aria-hidden="true"><svg><use href="#i-mail"/></svg></span>Contact</h2>
+          <p>Reach me by email, WhatsApp, or LinkedIn for DevOps cloud platform &amp; Golang opportunities.</p>
+        </div>
+        <div class="card">
+          <p>
+            <a href="mailto:piyushsinghal003@gmail.com">piyushsinghal003@gmail.com</a><br />
+            <a href="tel:+918770178088">+91 87701 78088</a><br />
+            <a href="https://wa.me/918770178088" target="_blank" rel="noreferrer">WhatsApp</a><br />
+            Pune, India
+          </p>
+          <div class="actions">
+            <a class="btn" href="mailto:piyushsinghal003@gmail.com">Start a conversation</a>
+            <a class="btn whatsapp" href="https://wa.me/918770178088" target="_blank" rel="noreferrer">
+              <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.04 2C6.58 2 2.15 6.43 2.15 11.89c0 1.76.46 3.48 1.34 5L2 22l5.25-1.38a9.86 9.86 0 0 0 4.79 1.22h.01c5.46 0 9.89-4.43 9.89-9.89C21.94 6.43 17.5 2 12.04 2zm5.76 13.98c-.24.68-1.4 1.3-1.94 1.38-.5.07-1.13.1-1.83-.12-.42-.13-.96-.31-1.66-.61-2.92-1.26-4.82-4.2-4.97-4.4-.15-.19-1.22-1.62-1.22-3.09 0-1.47.77-2.2 1.04-2.5.27-.3.6-.37.8-.37h.58c.18 0 .43-.07.67.51.24.6.82 2.07.89 2.22.07.15.12.33.02.53-.1.19-.14.31-.28.48-.14.16-.3.36-.42.49-.14.14-.28.29-.12.56.16.27.72 1.19 1.55 1.93 1.07.95 1.97 1.25 2.24 1.39.27.14.43.12.59-.07.16-.19.68-.8.86-1.07.18-.27.36-.23.6-.14.24.1 1.54.73 1.8.86.27.13.44.2.51.31.07.11.07.64-.17 1.32z"/></svg>
+              WhatsApp
+            </a>
+            <a class="btn secondary" href="https://flowcv.com/resume/0tf5lasnrr84" target="_blank" rel="noreferrer">View resume</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Piyush Singhal · Built for GitHub Pages</p>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>

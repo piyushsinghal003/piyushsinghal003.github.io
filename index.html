@@ -27,6 +27,7 @@
       <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="9" r="5.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m8.6 13.4-1.4 7 4.8-2.6 4.8 2.6-1.4-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
       <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
       <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3.5" y="5.5" width="17" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m4.5 7 7.5 6 7.5-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v9M8.5 10.5 12 14l3.5-3.5M5 18.5h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
       <symbol id="i-git" viewBox="0 0 24 24"><circle cx="6" cy="18" r="2.2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="6" cy="6" r="2.2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="18" cy="12" r="2.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M6 8.2v7.6M7.8 6.8c4 0 8 1.6 8 5.2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
       <symbol id="i-cloud" viewBox="0 0 24 24"><path d="M7.5 18h9.2A4.3 4.3 0 0 0 18 9.7 6 6 0 0 0 7.1 11 3.7 3.7 0 0 0 7.5 18Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
       <symbol id="i-box" viewBox="0 0 24 24"><path d="M12 3 4.5 7v10L12 21l7.5-4V7L12 3Zm0 8.2 7.5-4.2M12 11.2 4.5 7M12 11.2V21" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
@@ -39,7 +40,7 @@
       <symbol id="i-phone" viewBox="0 0 24 24"><path d="M7 3.8h10A1.8 1.8 0 0 1 18.8 5.6v12.8a1.8 1.8 0 0 1-1.8 1.8H7A1.8 1.8 0 0 1 5.2 18.4V5.6A1.8 1.8 0 0 1 7 3.8ZM10 18.2h4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
     </svg>
     <a class="skip-link" href="#main">Skip to content</a>
-    <header class="nav">
+    <header class="nav" id="site-header">
       <div class="nav-inner">
         <a class="brand" href="#top">
           <span class="brand-mark">PS</span>
@@ -49,13 +50,86 @@
           Menu
         </button>
         <ul class="nav-links" id="site-nav">
-          <li><a href="#about"><svg class="nav-icon"><use href="#i-user"/></svg>About</a></li>
-          <li><a href="#skills"><svg class="nav-icon"><use href="#i-layers"/></svg>Skills</a></li>
-          <li><a href="#experience"><svg class="nav-icon"><use href="#i-briefcase"/></svg>Experience</a></li>
-          <li><a href="#projects"><svg class="nav-icon"><use href="#i-code"/></svg>Projects</a></li>
-          <li><a href="#certifications"><svg class="nav-icon"><use href="#i-award"/></svg>Certifications</a></li>
-          <li><a href="#contact"><svg class="nav-icon"><use href="#i-mail"/></svg>Contact</a></li>
+          <li>
+            <a href="#about"><svg class="nav-icon" aria-hidden="true"><use href="#i-user"/></svg><span class="label">About</span></a>
+          </li>
+          <li>
+            <a href="#skills"><svg class="nav-icon" aria-hidden="true"><use href="#i-layers"/></svg><span class="label">Skills</span></a>
+          </li>
+          <li>
+            <a href="#experience"><svg class="nav-icon" aria-hidden="true"><use href="#i-briefcase"/></svg><span class="label">Experience</span></a>
+          </li>
+          <li>
+            <a href="#projects"><svg class="nav-icon" aria-hidden="true"><use href="#i-code"/></svg><span class="label">Projects</span></a>
+          </li>
+          <li>
+            <a href="#certifications"><svg class="nav-icon" aria-hidden="true"><use href="#i-award"/></svg><span class="label">Certifications</span></a>
+          </li>
+          <li>
+            <a href="#contact"><svg class="nav-icon" aria-hidden="true"><use href="#i-mail"/></svg><span class="label">Contact</span></a>
+          </li>
+          <li>
+            <a
+              class="nav-cta"
+              href="https://flowcv.com/resume/0tf5lasnrr84"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <svg class="nav-icon" aria-hidden="true"><use href="#i-download"/></svg>
+              <span class="label">Resume</span>
+            </a>
+          </li>
         </ul>
+        <nav class="nav-social" aria-label="Quick contact">
+          <a class="nav-social-link nav-social-link--email" href="mailto:piyushsinghal003@gmail.com" title="Email me" aria-label="Email me">
+            <svg aria-hidden="true"><use href="#i-mail"/></svg>
+          </a>
+          <a
+            class="nav-social-link nav-social-link--linkedin"
+            href="https://www.linkedin.com/in/piyushsinghal003"
+            target="_blank"
+            rel="noreferrer"
+            title="LinkedIn"
+            aria-label="LinkedIn"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg"
+              alt=""
+              width="16"
+              height="16"
+            />
+          </a>
+          <a
+            class="nav-social-link nav-social-link--github"
+            href="https://github.com/piyushsinghal003"
+            target="_blank"
+            rel="noreferrer"
+            title="GitHub"
+            aria-label="GitHub"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+              alt=""
+              width="16"
+              height="16"
+            />
+          </a>
+          <a
+            class="nav-social-link nav-social-link--whatsapp"
+            href="https://wa.me/918770178088"
+            target="_blank"
+            rel="noreferrer"
+            title="WhatsApp"
+            aria-label="WhatsApp"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                fill="currentColor"
+                d="M12.04 2C6.58 2 2.15 6.43 2.15 11.89c0 1.76.46 3.48 1.34 5L2 22l5.25-1.38a9.86 9.86 0 0 0 4.79 1.22h.01c5.46 0 9.89-4.43 9.89-9.89C21.94 6.43 17.5 2 12.04 2zm5.76 13.98c-.24.68-1.4 1.3-1.94 1.38-.5.07-1.13.1-1.83-.12-.42-.13-.96-.31-1.66-.61-2.92-1.26-4.82-4.2-4.97-4.4-.15-.19-1.22-1.62-1.22-3.09 0-1.47.77-2.2 1.04-2.5.27-.3.6-.37.8-.37h.58c.18 0 .43-.07.67.51.24.6.82 2.07.89 2.22.07.15.12.33.02.53-.1.19-.14.31-.28.48-.14.16-.3.36-.42.49-.14.14-.28.29-.12.56.16.27.72 1.19 1.55 1.93 1.07.95 1.97 1.25 2.24 1.39.27.14.43.12.59-.07.16-.19.68-.8.86-1.07.18-.27.36-.23.6-.14.24.1 1.54.73 1.8.86.27.13.44.2.51.31.07.11.07.64-.17 1.32z"
+              />
+            </svg>
+          </a>
+        </nav>
       </div>
     </header>
 
@@ -155,16 +229,60 @@
               </div>
             </div>
           </div>
-          <div class="actions">
-            <a class="btn" href="https://flowcv.com/resume/0tf5lasnrr84" target="_blank" rel="noreferrer">View resume</a>
-            <a class="btn secondary" href="mailto:piyushsinghal003@gmail.com">Email me</a>
-            <a class="btn secondary" href="https://www.linkedin.com/in/piyushsinghal003" target="_blank" rel="noreferrer">LinkedIn</a>
-            <a class="btn secondary" href="https://github.com/piyushsinghal003" target="_blank" rel="noreferrer">GitHub</a>
-            <a class="btn whatsapp" href="https://wa.me/918770178088" target="_blank" rel="noreferrer">
-              <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.04 2C6.58 2 2.15 6.43 2.15 11.89c0 1.76.46 3.48 1.34 5L2 22l5.25-1.38a9.86 9.86 0 0 0 4.79 1.22h.01c5.46 0 9.89-4.43 9.89-9.89C21.94 6.43 17.5 2 12.04 2zm5.76 13.98c-.24.68-1.4 1.3-1.94 1.38-.5.07-1.13.1-1.83-.12-.42-.13-.96-.31-1.66-.61-2.92-1.26-4.82-4.2-4.97-4.4-.15-.19-1.22-1.62-1.22-3.09 0-1.47.77-2.2 1.04-2.5.27-.3.6-.37.8-.37h.58c.18 0 .43-.07.67.51.24.6.82 2.07.89 2.22.07.15.12.33.02.53-.1.19-.14.31-.28.48-.14.16-.3.36-.42.49-.14.14-.28.29-.12.56.16.27.72 1.19 1.55 1.93 1.07.95 1.97 1.25 2.24 1.39.27.14.43.12.59-.07.16-.19.68-.8.86-1.07.18-.27.36-.23.6-.14.24.1 1.54.73 1.8.86.27.13.44.2.51.31.07.11.07.64-.17 1.32z"/></svg>
+          <nav class="quick-links" aria-label="Quick contact">
+            <a class="quick-link quick-link--email" href="mailto:piyushsinghal003@gmail.com">
+              <span class="quick-link-icon" aria-hidden="true"><svg><use href="#i-mail"/></svg></span>
+              Email me
+            </a>
+            <a
+              class="quick-link quick-link--linkedin"
+              href="https://www.linkedin.com/in/piyushsinghal003"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="quick-link-icon" aria-hidden="true">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg"
+                  alt=""
+                  width="20"
+                  height="20"
+                />
+              </span>
+              LinkedIn
+            </a>
+            <a
+              class="quick-link quick-link--github"
+              href="https://github.com/piyushsinghal003"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="quick-link-icon" aria-hidden="true">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+                  alt=""
+                  width="20"
+                  height="20"
+                />
+              </span>
+              GitHub
+            </a>
+            <a
+              class="quick-link quick-link--whatsapp"
+              href="https://wa.me/918770178088"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="quick-link-icon quick-link-icon--wa" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    fill="currentColor"
+                    d="M12.04 2C6.58 2 2.15 6.43 2.15 11.89c0 1.76.46 3.48 1.34 5L2 22l5.25-1.38a9.86 9.86 0 0 0 4.79 1.22h.01c5.46 0 9.89-4.43 9.89-9.89C21.94 6.43 17.5 2 12.04 2zm5.76 13.98c-.24.68-1.4 1.3-1.94 1.38-.5.07-1.13.1-1.83-.12-.42-.13-.96-.31-1.66-.61-2.92-1.26-4.82-4.2-4.97-4.4-.15-.19-1.22-1.62-1.22-3.09 0-1.47.77-2.2 1.04-2.5.27-.3.6-.37.8-.37h.58c.18 0 .43-.07.67.51.24.6.82 2.07.89 2.22.07.15.12.33.02.53-.1.19-.14.31-.28.48-.14.16-.3.36-.42.49-.14.14-.28.29-.12.56.16.27.72 1.19 1.55 1.93 1.07.95 1.97 1.25 2.24 1.39.27.14.43.12.59-.07.16-.19.68-.8.86-1.07.18-.27.36-.23.6-.14.24.1 1.54.73 1.8.86.27.13.44.2.51.31.07.11.07.64-.17 1.32z"
+                  />
+                </svg>
+              </span>
               WhatsApp
             </a>
-          </div>
+          </nav>
         </aside>
       </section>
 
@@ -415,20 +533,38 @@
           <h2><span class="icon-badge" aria-hidden="true"><svg><use href="#i-mail"/></svg></span>Contact</h2>
           <p>Reach me by email, WhatsApp, or LinkedIn for DevOps cloud platform &amp; Golang opportunities.</p>
         </div>
-        <div class="card">
-          <p>
+        <div class="card contact-card">
+          <p class="contact-meta">
             <a href="mailto:piyushsinghal003@gmail.com">piyushsinghal003@gmail.com</a><br />
             <a href="tel:+918770178088">+91 87701 78088</a><br />
-            <a href="https://wa.me/918770178088" target="_blank" rel="noreferrer">WhatsApp</a><br />
-            Pune, India
+            <a href="https://wa.me/918770178088" target="_blank" rel="noreferrer">WhatsApp</a> · Pune, India
           </p>
           <div class="actions">
-            <a class="btn" href="mailto:piyushsinghal003@gmail.com">Start a conversation</a>
+            <a class="btn" href="mailto:piyushsinghal003@gmail.com">
+              <svg class="btn-icon" aria-hidden="true"><use href="#i-mail"/></svg>
+              Email me
+            </a>
             <a class="btn whatsapp" href="https://wa.me/918770178088" target="_blank" rel="noreferrer">
               <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.04 2C6.58 2 2.15 6.43 2.15 11.89c0 1.76.46 3.48 1.34 5L2 22l5.25-1.38a9.86 9.86 0 0 0 4.79 1.22h.01c5.46 0 9.89-4.43 9.89-9.89C21.94 6.43 17.5 2 12.04 2zm5.76 13.98c-.24.68-1.4 1.3-1.94 1.38-.5.07-1.13.1-1.83-.12-.42-.13-.96-.31-1.66-.61-2.92-1.26-4.82-4.2-4.97-4.4-.15-.19-1.22-1.62-1.22-3.09 0-1.47.77-2.2 1.04-2.5.27-.3.6-.37.8-.37h.58c.18 0 .43-.07.67.51.24.6.82 2.07.89 2.22.07.15.12.33.02.53-.1.19-.14.31-.28.48-.14.16-.3.36-.42.49-.14.14-.28.29-.12.56.16.27.72 1.19 1.55 1.93 1.07.95 1.97 1.25 2.24 1.39.27.14.43.12.59-.07.16-.19.68-.8.86-1.07.18-.27.36-.23.6-.14.24.1 1.54.73 1.8.86.27.13.44.2.51.31.07.11.07.64-.17 1.32z"/></svg>
               WhatsApp
             </a>
-            <a class="btn secondary" href="https://flowcv.com/resume/0tf5lasnrr84" target="_blank" rel="noreferrer">View resume</a>
+            <a
+              class="btn secondary"
+              href="https://www.linkedin.com/in/piyushsinghal003"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>
+            <a
+              class="btn secondary"
+              href="https://flowcv.com/resume/0tf5lasnrr84"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <svg class="btn-icon" aria-hidden="true"><use href="#i-download"/></svg>
+              Download Resume
+            </a>
           </div>
         </div>
       </section>
